@@ -25,6 +25,6 @@
     "async": "0.2.x"
   },
   "devDependencies": {
-    "cortado": "0.0.43"
+    "cortado": "0.0.x"
   }
 }
