@@ -1,20 +1,20 @@
-## Project Structure
-
-- `scripts/` - scripts for the project
-- `public/` - public files
-  - `css/` - css 
-  - `js/` - javascript application
-  - `vendor/` - third-party libraries
+## Directory Layout
 
 
-## Application Structure
-
-- `commands/` - global commands
-- `models/` - model classes 
-- `views/` - view classes
-- `paperclip/` - paperclip plugins
-- `plugins.js` - registers all plugins
-- `index.js` - main entry point
+```
+  .cortado.js            - test config for cortado
+  public/                - all public HTTP files
+    index.html           - index file
+    css/                 - CSS files
+    img/                 - images
+    scripts/             - useful js / shell scripts
+      server.js          - static HTML server
+    vendor/              - third-party libraries
+    test/                - test files
+    js/                  - application
+      views/             - mojo views & templates
+      commands/          - global mediator commands
+```
 
 
 ## Requirements
