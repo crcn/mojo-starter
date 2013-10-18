@@ -10,11 +10,7 @@ module.exports = mojo.View.extend({
     auth: {
       type: "states",
       index: 0,
-      views: [
-        { class: require("./login")  , name: "login" },
-        { class: require("./signup") , name: "signup" }
-      ]
+      views: [ require("./login"), require("./signup") ]
     }
   }
-
 });
