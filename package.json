@@ -20,7 +20,8 @@
     "express": "~3.4.1",
     "through": "~2.3.4",
     "mojojs": "~0.6.45",
-    "structr": "~0.2.3"
+    "structr": "~0.2.3",
+    "paperclip": "~0.2.21"
   },
   "devDependencies": {
     "cortado": "0.0.43"
