@@ -33,7 +33,7 @@ module.exports = function (scriptPath) {
     this.queue(content);
     this.queue(null);
   }
-}
+};
 
 
 module.exports.extensions = transformers.map(function(transformer) {
