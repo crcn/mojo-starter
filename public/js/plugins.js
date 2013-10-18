@@ -7,8 +7,8 @@ mojo          = require("mojojs");
  * template plugins
  */
 
-paperclip.use(require("./paperclip/modifiers"));
-paperclip.use(require("./paperclip/bindings"));
+paperclip.use(require("./paper/modifiers"));
+paperclip.use(require("./paper/bindings"));
 
 /**
  * mojo plugins
