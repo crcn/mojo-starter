@@ -16,13 +16,13 @@
   "readmeFilename": "README.md",
   "gitHead": "f685d2e601df0d0e91f7a4a07f5c696e67e81bb0",
   "dependencies": {
-    "browserify-middleware": "~1.19.0",
-    "express": "~3.4.1",
-    "through": "~2.3.4",
-    "mojojs": "~0.6.45",
-    "structr": "~0.2.3",
-    "paperclip": "~0.2.21",
-    "async": "~0.2.9"
+    "browserify-middleware": "1.19.x",
+    "express": "3.4.x",
+    "through": "2.3.x",
+    "mojojs": "0.6.x",
+    "structr": "0.2.x",
+    "paperclip": "0.2.x",
+    "async": "0.2.x"
   },
   "devDependencies": {
     "cortado": "0.0.43"
