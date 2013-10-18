@@ -26,10 +26,9 @@ var modifiers = {
     }
 
     //translate
-    return modifiers.t([string, ops[count]].join("."), options);
+    return modifiers.t([string, ops[count] || ops.default].join("."), options);
   }
 };
-
 
 /**
  */

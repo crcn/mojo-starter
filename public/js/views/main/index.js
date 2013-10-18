@@ -2,15 +2,8 @@ var mojo = require("mojojs");
 
 module.exports = mojo.View.extend({
 
-  //paperclip template
-  paper: require("./index.pc"),
+  name: "Mojo",
 
-  //sections for the main view
-  sections: {
-    main: {
-      type: "states",
-      index: 0,
-      views: [ { class: require("./app") }, require("./auth") ]
-    }
-  }
+  //paperclip template
+  paper: require("./index.pc")
 });
