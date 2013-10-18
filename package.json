@@ -22,7 +22,8 @@
     "mojojs": "0.6.x",
     "structr": "0.2.x",
     "paperclip": "0.2.x",
-    "async": "0.2.x"
+    "async": "0.2.x",
+    "coffee-script": "~1.6.3"
   },
   "devDependencies": {
     "cortado": "0.0.x"
