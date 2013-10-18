@@ -32,3 +32,9 @@ git clone git@github.com:classdojo/mojo-starter.git && cd mojo-starter && npm in
 ```bash
 npm run server
 ```
+
+## Testing
+
+```bash
+npm test
+```
