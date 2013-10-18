@@ -4,7 +4,7 @@
   "description": "mojo-boilerplate ================",
   "main": "./lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "cortado start",
     "server": "node scripts/server"
   },
   "repository": {
