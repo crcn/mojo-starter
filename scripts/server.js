@@ -5,7 +5,7 @@ transform   = require("./transform");
 var server = express(), port = 8081;
 server.use(express.static(__dirname + "/../public"));
 
-server.get("/js/index.bundle.js", browserify(__dirname + "/../public/js/index.js", { transform: transform, extensions: transform.extensions }));
+server.get("/js/index.bundle.js", browserify(__dirname + "/../public/js/index.coffee", { transform: transform, extensions: transform.extensions }));
 
 server.listen(port);
 

@@ -1,6 +1,6 @@
 {
-  "name": "app-name",
-  "version": "0.0.0",
+  "name": "playground",
+  "version": "0.1.0",
   "description": "mojo-boilerplate ================",
   "main": "./lib/index.js",
   "scripts": {
@@ -19,12 +19,15 @@
     "browserify-middleware": "1.19.x",
     "express": "3.4.x",
     "through": "2.3.x",
-    "mojojs": "0.6.x",
+    "mojojs": "0.7.x",
     "structr": "0.2.x",
     "paperclip": "0.2.x",
     "async": "0.2.x",
     "coffee-script": "~1.6.3",
-    "funwrap": "0.0.9"
+    "funwrap": "0.0.9",
+    "mediocre": "0.0.2",
+    "bindable-call": "0.0.3",
+    "outcome": "0.0.18"
   },
   "devDependencies": {
     "cortado": "0.0.x"

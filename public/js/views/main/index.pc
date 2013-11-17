@@ -1,1 +1,46 @@
-<h1>Hello {{name}}!</h1>
+<div class="row">
+
+  <div class="col-md-4">
+  </div>
+
+  <div class="col-md-4">
+    <h1> Welcome to Mojo.js! </h1>
+
+    <h3> Commands: </h3>
+
+    <p> Commands are abstracted functions that you can all anywhere within the application. API's for example should be defined as a command so that they can be tested against without a backend. It's encouraged that you call commands either within <strong> models </strong>, or <strong> view controllers </strong>. <strong> try it out!</strong></p>
+
+    <h4> Type in some login credentials: (u: user, p: pass)</h4>
+
+    {{#if: loginRequest.error }}
+      <span style="color: red;">{{ loginRequest.error.message }}</span>
+    {{/elseif: loginRequest.loading }}
+      <span style="color: grey;">Checking credentials...</span>
+    {{/elseif: loginRequest.success }}
+      <span style="color: green;">Successfuly logged in!</span>
+    {{/}}
+
+    <form data-bind="{{ onSubmit: login() }}">
+      <input type="text" placeholder="Username" data-bind="{{ model: username }}" />
+      <input type="password" placeholder="Password" data-bind="{{ model: password }}" />
+      <input type="submit" value="Login" />
+    </form>
+
+    <h3> Models: </h3>
+
+    <p> Models represent data on the backend. However, their job is to map data that makes sense for the front-end - views should not be designed around data structures, but the other way around. Models interface the backend via commands, so that they remain testable. </p>
+
+    {{#if: !loginRequest.success }}
+      <strong> Give it a shot! First you need to login with the form input up top. </strong>
+    {{/else}}
+      Hello again {{ user.name }}! Here's your personalized weather forecast for today: <br />
+
+      {{ html: sections.forecast }}
+    {{/}}
+
+
+  </div>
+
+  <div class="col-md-4">
+  </div>
+</div>
