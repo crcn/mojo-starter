@@ -1,6 +1,6 @@
 {
-  "name": "app-name",
-  "version": "0.0.0",
+  "name": "playground",
+  "version": "0.1.0",
   "description": "mojo-boilerplate ================",
   "main": "./app/js/index.js",
   "scripts": {
@@ -19,7 +19,9 @@
   "dependencies": {
     "mojo-application": "0.0.x",
     "mojo-paperclip": "0.4.x",
-    "mojo-views": "0.0.x"
+    "mojo-views": "0.0.x",
+    "mojo-router": "^0.2.2",
+    "mojo-mediator": "0.0.4"
   },
   "devDependencies": {
     "expect.js": "0.3.1",

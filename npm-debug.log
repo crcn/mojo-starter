@@ -3,19 +3,19 @@
 2 info using npm@1.4.3
 3 info using node@v0.10.26
 4 verbose run-script [ 'prestart', 'start', 'poststart' ]
-5 info prestart app-name@0.0.0
-6 info start app-name@0.0.0
+5 info prestart playground@0.1.0
+6 info start playground@0.1.0
 7 verbose unsafe-perm in lifecycle true
-8 info app-name@0.0.0 Failed to exec start script
-9 error app-name@0.0.0 start: `mojo server`
+8 info playground@0.1.0 Failed to exec start script
+9 error playground@0.1.0 start: `mojo server`
 9 error Exit status 8
-10 error Failed at the app-name@0.0.0 start script.
-10 error This is most likely a problem with the app-name package,
+10 error Failed at the playground@0.1.0 start script.
+10 error This is most likely a problem with the playground package,
 10 error not with npm itself.
 10 error Tell the author that this fails on your system:
 10 error     mojo server
 10 error You can get their info via:
-10 error     npm owner ls app-name
+10 error     npm owner ls playground
 10 error There is likely additional logging output above.
 11 error System Darwin 13.2.0
 12 error command "node" "/usr/local/bin/npm" "start"
