@@ -1,26 +1,172 @@
 0 info it worked if it ends with ok
-1 verbose cli [ 'node', '/usr/local/bin/npm', 'start' ]
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish' ]
 2 info using npm@1.4.3
 3 info using node@v0.10.26
-4 verbose run-script [ 'prestart', 'start', 'poststart' ]
-5 info prestart playground@0.1.0
-6 info start playground@0.1.0
-7 verbose unsafe-perm in lifecycle true
-8 info playground@0.1.0 Failed to exec start script
-9 error playground@0.1.0 start: `mojo server`
-9 error Exit status 8
-10 error Failed at the playground@0.1.0 start script.
-10 error This is most likely a problem with the playground package,
-10 error not with npm itself.
-10 error Tell the author that this fails on your system:
-10 error     mojo server
-10 error You can get their info via:
-10 error     npm owner ls playground
-10 error There is likely additional logging output above.
-11 error System Darwin 13.2.0
-12 error command "node" "/usr/local/bin/npm" "start"
-13 error cwd /Users/craig/Developer/public/mojo-starter
-14 error node -v v0.10.26
-15 error npm -v 1.4.3
-16 error code ELIFECYCLE
-17 verbose exit [ 1, true ]
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . /Users/craig/.npm/3a52ce78-.lock
+10 verbose tar pack [ '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-25453-C4-iJxJJ/1401993417334-0.7407389476429671/tmp.tgz',
+10 verbose tar pack   '.' ]
+11 verbose tarball /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-25453-C4-iJxJJ/1401993417334-0.7407389476429671/tmp.tgz
+12 verbose folder .
+13 info prepublish playground@0.1.0
+14 silly lockFile 1f1177db-tar tar://.
+15 verbose lock tar://. /Users/craig/.npm/1f1177db-tar.lock
+16 silly lockFile ea251565-17334-0-7407389476429671-tmp-tgz tar:///var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-25453-C4-iJxJJ/1401993417334-0.7407389476429671/tmp.tgz
+17 verbose lock tar:///var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-25453-C4-iJxJJ/1401993417334-0.7407389476429671/tmp.tgz /Users/craig/.npm/ea251565-17334-0-7407389476429671-tmp-tgz.lock
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile ea251565-17334-0-7407389476429671-tmp-tgz tar:///var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-25453-C4-iJxJJ/1401993417334-0.7407389476429671/tmp.tgz
+21 silly lockFile ea251565-17334-0-7407389476429671-tmp-tgz tar:///var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-25453-C4-iJxJJ/1401993417334-0.7407389476429671/tmp.tgz
+22 verbose tar unpack /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-25453-C4-iJxJJ/1401993417334-0.7407389476429671/tmp.tgz
+23 silly lockFile 1ce603d6-17334-0-7407389476429671-package tar:///var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-25453-C4-iJxJJ/1401993417334-0.7407389476429671/package
+24 verbose lock tar:///var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-25453-C4-iJxJJ/1401993417334-0.7407389476429671/package /Users/craig/.npm/1ce603d6-17334-0-7407389476429671-package.lock
+25 silly lockFile ea251565-17334-0-7407389476429671-tmp-tgz tar:///var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-25453-C4-iJxJJ/1401993417334-0.7407389476429671/tmp.tgz
+26 verbose lock tar:///var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-25453-C4-iJxJJ/1401993417334-0.7407389476429671/tmp.tgz /Users/craig/.npm/ea251565-17334-0-7407389476429671-tmp-tgz.lock
+27 silly gunzTarPerm modes [ '755', '644' ]
+28 silly gunzTarPerm extractEntry package.json
+29 silly gunzTarPerm extractEntry .npmignore
+30 silly gunzTarPerm modified mode [ '.npmignore', 511, 493 ]
+31 silly gunzTarPerm extractEntry README.md
+32 silly gunzTarPerm extractEntry app/js/index.js
+33 silly gunzTarPerm extractEntry app/js/commands/index.js
+34 silly gunzTarPerm extractEntry app/js/commands/.gitkeep
+35 silly gunzTarPerm extractEntry app/js/models/index.js
+36 silly gunzTarPerm extractEntry app/js/routes/index.js
+37 silly gunzTarPerm extractEntry app/js/routes/.gitkeep
+38 silly gunzTarPerm extractEntry app/js/templates/index.js
+39 silly gunzTarPerm extractEntry app/js/views/index.js
+40 silly gunzTarPerm extractEntry app/js/views/main/index.js
+41 silly gunzTarPerm extractEntry app/js/views/main/index.pc
+42 silly lockFile 1ce603d6-17334-0-7407389476429671-package tar:///var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-25453-C4-iJxJJ/1401993417334-0.7407389476429671/package
+43 silly lockFile 1ce603d6-17334-0-7407389476429671-package tar:///var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-25453-C4-iJxJJ/1401993417334-0.7407389476429671/package
+44 silly lockFile ea251565-17334-0-7407389476429671-tmp-tgz tar:///var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-25453-C4-iJxJJ/1401993417334-0.7407389476429671/tmp.tgz
+45 silly lockFile ea251565-17334-0-7407389476429671-tmp-tgz tar:///var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-25453-C4-iJxJJ/1401993417334-0.7407389476429671/tmp.tgz
+46 verbose tar pack [ '/Users/craig/.npm/playground/0.1.0/package.tgz',
+46 verbose tar pack   '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-25453-C4-iJxJJ/1401993417334-0.7407389476429671/package' ]
+47 verbose tarball /Users/craig/.npm/playground/0.1.0/package.tgz
+48 verbose folder /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-25453-C4-iJxJJ/1401993417334-0.7407389476429671/package
+49 silly lockFile 1ce603d6-17334-0-7407389476429671-package tar:///var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-25453-C4-iJxJJ/1401993417334-0.7407389476429671/package
+50 verbose lock tar:///var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-25453-C4-iJxJJ/1401993417334-0.7407389476429671/package /Users/craig/.npm/1ce603d6-17334-0-7407389476429671-package.lock
+51 silly lockFile 7b3a15a9-npm-playground-0-1-0-package-tgz tar:///Users/craig/.npm/playground/0.1.0/package.tgz
+52 verbose lock tar:///Users/craig/.npm/playground/0.1.0/package.tgz /Users/craig/.npm/7b3a15a9-npm-playground-0-1-0-package-tgz.lock
+53 silly lockFile 1ce603d6-17334-0-7407389476429671-package tar:///var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-25453-C4-iJxJJ/1401993417334-0.7407389476429671/package
+54 silly lockFile 1ce603d6-17334-0-7407389476429671-package tar:///var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-25453-C4-iJxJJ/1401993417334-0.7407389476429671/package
+55 silly lockFile 7b3a15a9-npm-playground-0-1-0-package-tgz tar:///Users/craig/.npm/playground/0.1.0/package.tgz
+56 silly lockFile 7b3a15a9-npm-playground-0-1-0-package-tgz tar:///Users/craig/.npm/playground/0.1.0/package.tgz
+57 silly lockFile ba83fb92-aig-npm-playground-0-1-0-package /Users/craig/.npm/playground/0.1.0/package
+58 verbose lock /Users/craig/.npm/playground/0.1.0/package /Users/craig/.npm/ba83fb92-aig-npm-playground-0-1-0-package.lock
+59 silly lockFile ba83fb92-aig-npm-playground-0-1-0-package /Users/craig/.npm/playground/0.1.0/package
+60 silly lockFile ba83fb92-aig-npm-playground-0-1-0-package /Users/craig/.npm/playground/0.1.0/package
+61 verbose tar unpack /Users/craig/.npm/playground/0.1.0/package.tgz
+62 silly lockFile 7b96219e-aig-npm-playground-0-1-0-package tar:///Users/craig/.npm/playground/0.1.0/package
+63 verbose lock tar:///Users/craig/.npm/playground/0.1.0/package /Users/craig/.npm/7b96219e-aig-npm-playground-0-1-0-package.lock
+64 silly lockFile 7b3a15a9-npm-playground-0-1-0-package-tgz tar:///Users/craig/.npm/playground/0.1.0/package.tgz
+65 verbose lock tar:///Users/craig/.npm/playground/0.1.0/package.tgz /Users/craig/.npm/7b3a15a9-npm-playground-0-1-0-package-tgz.lock
+66 silly gunzTarPerm modes [ '755', '644' ]
+67 silly gunzTarPerm extractEntry package.json
+68 silly gunzTarPerm extractEntry .npmignore
+69 silly gunzTarPerm extractEntry README.md
+70 silly gunzTarPerm extractEntry app/js/index.js
+71 silly gunzTarPerm extractEntry app/js/commands/index.js
+72 silly gunzTarPerm extractEntry app/js/commands/.gitkeep
+73 silly gunzTarPerm extractEntry app/js/models/index.js
+74 silly gunzTarPerm extractEntry app/js/routes/index.js
+75 silly gunzTarPerm extractEntry app/js/routes/.gitkeep
+76 silly gunzTarPerm extractEntry app/js/templates/index.js
+77 silly gunzTarPerm extractEntry app/js/views/index.js
+78 silly gunzTarPerm extractEntry app/js/views/main/index.js
+79 silly gunzTarPerm extractEntry app/js/views/main/index.pc
+80 silly lockFile 7b96219e-aig-npm-playground-0-1-0-package tar:///Users/craig/.npm/playground/0.1.0/package
+81 silly lockFile 7b96219e-aig-npm-playground-0-1-0-package tar:///Users/craig/.npm/playground/0.1.0/package
+82 silly lockFile 7b3a15a9-npm-playground-0-1-0-package-tgz tar:///Users/craig/.npm/playground/0.1.0/package.tgz
+83 silly lockFile 7b3a15a9-npm-playground-0-1-0-package-tgz tar:///Users/craig/.npm/playground/0.1.0/package.tgz
+84 verbose chmod /Users/craig/.npm/playground/0.1.0/package.tgz 644
+85 verbose chown /Users/craig/.npm/playground/0.1.0/package.tgz [ 501, 20 ]
+86 silly lockFile 3a52ce78- .
+87 silly lockFile 3a52ce78- .
+88 silly publish { name: 'playground',
+88 silly publish   version: '0.1.0',
+88 silly publish   description: 'mojo-boilerplate ================',
+88 silly publish   main: './app/js/index.js',
+88 silly publish   scripts:
+88 silly publish    { test: 'cortado start',
+88 silly publish      start: 'mojo server',
+88 silly publish      hotswap: 'ditto-proxy http://127.0.0.1:8080 --port=8090 --verbose --watch=\'./lib/**\'' },
+88 silly publish   repository:
+88 silly publish    { type: 'git',
+88 silly publish      url: 'git://github.com/classdojo/mojo-starter.git' },
+88 silly publish   author: '',
+88 silly publish   license: 'BSD',
+88 silly publish   readmeFilename: 'README.md',
+88 silly publish   gitHead: 'f685d2e601df0d0e91f7a4a07f5c696e67e81bb0',
+88 silly publish   dependencies:
+88 silly publish    { 'mojo-application': '0.0.x',
+88 silly publish      'mojo-paperclip': '0.4.x',
+88 silly publish      'mojo-views': '0.0.x',
+88 silly publish      'mojo-router': '^0.2.2',
+88 silly publish      'mojo-mediator': '0.0.4' },
+88 silly publish   devDependencies:
+88 silly publish    { 'expect.js': '0.3.1',
+88 silly publish      mocha: '1.20.1',
+88 silly publish      'mojo-cli': '0.0.x',
+88 silly publish      ditto: '0.0.x' },
+88 silly publish   readme: '## Requirements\n\n- Node.js\n\n\n## Installation\n\n```\ngit clone git@github.com:classdojo/mojo-starter.git && cd mojo-starter && npm install;\n```\n\n## Running\n\n```\nnpm test\n```\n',
+88 silly publish   bugs: { url: 'https://github.com/classdojo/mojo-starter/issues' },
+88 silly publish   homepage: 'https://github.com/classdojo/mojo-starter',
+88 silly publish   _id: 'playground@0.1.0',
+88 silly publish   dist: { shasum: 'e6abe77ecff3232716279a21e655fbd0af15873e' },
+88 silly publish   _from: '.' }
+89 verbose url raw playground
+90 verbose url resolving [ 'http://registry.npmjs.org/', './playground' ]
+91 verbose url resolved http://registry.npmjs.org/playground
+92 info trying registry request attempt 1 at 11:36:57
+93 http PUT http://registry.npmjs.org/playground
+94 http 403 http://registry.npmjs.org/playground
+95 error publish Failed PUT 403
+96 error Error: forbidden user: architectd not authorized to modify playground
+96 error Changed: description "Code playground for browserify module demos" -> "mojo-boilerplate ================"
+96 error Changed: dist-tags.latest "0.0.0" -> "0.1.0"
+96 error Added: versions.0.1.0
+96 error Changed: readme "# playground\u000a\u000a" -> "## Requirements\u000a\u000a- Node.js\u000a\u000a\u000a## Installation\u000a\u000a```\u000agit clone git@github.com:classdojo/mojo-starter.git && cd mojo-starter && npm install;\u000a```\u000a\u000a## Running\u000a\u000a```\u000anpm test\u000a```\u000a"
+96 error Changed: time.modified "2013-10-07T10:51:57.736Z" -> "2014-06-05T18:35:53.409Z"
+96 error Added: time.0.1.0
+96 error Deleted: author
+96 error Changed: repository.url "https://github.com/DamonOehlman/playground.git" -> "git://github.com/classdojo/mojo-starter.git"
+96 error Deleted: keywords
+96 error Changed: license "MIT" -> "BSD"
+96 error Added: homepage
+96 error Added: bugs
+96 error Added: _attachments: playground
+96 error     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:237:14)
+96 error     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:123:22)
+96 error     at Request.EventEmitter.emit (events.js:98:17)
+96 error     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:893:14)
+96 error     at Request.EventEmitter.emit (events.js:117:20)
+96 error     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:844:12)
+96 error     at IncomingMessage.EventEmitter.emit (events.js:117:20)
+96 error     at _stream_readable.js:920:16
+96 error     at process._tickCallback (node.js:415:13)
+97 error If you need help, you may report this *entire* log,
+97 error including the npm and node versions, at:
+97 error     <http://github.com/npm/npm/issues>
+98 error System Darwin 13.2.0
+99 error command "node" "/usr/local/bin/npm" "publish"
+100 error cwd /Users/craig/Developer/public/mojo-starter
+101 error node -v v0.10.26
+102 error npm -v 1.4.3
+103 verbose exit [ 1, true ]
