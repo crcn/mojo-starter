@@ -12,5 +12,11 @@ git clone git@github.com:classdojo/mojo-starter.git && cd mojo-starter && npm in
 ## Running
 
 ```
-npm test
+npm start
+```
+
+## Building
+
+```
+npm run build
 ```

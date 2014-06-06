@@ -29,4 +29,4 @@ module.exports = Application.extend({
   didInitialize: function (options) {
     $(options.element).append(this.views.create("main").render());
   }
-})
+});
