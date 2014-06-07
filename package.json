@@ -6,7 +6,7 @@
   "scripts": {
     "test": "cortado start",
     "start": "./node_modules/.bin/mojo build ./app/js/entry.js --output=build/app.min.js --serve=build --port=8085",
-    "build": "./node_modules/.bin/mojo build ./app/js/entry.js -m --output=build/app.min.js",
+    "build": "./node_modules/.bin/mojo build ./app/js/entry.js --minify --output=build/app.min.js",
     "hotswap": "./node_modules/.bin/ditto-proxy http://127.0.0.1:8085 --port=8090 --verbose --watch='./build/**'"
   },
   "repository": {
