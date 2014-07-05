@@ -1,5 +1,5 @@
 {
-  "name": "playground",
+  "name": "mojo-starter",
   "version": "0.1.0",
   "description": "mojo-boilerplate ================",
   "main": "./app/js/index.js",
