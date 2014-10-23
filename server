@@ -1,6 +1,6 @@
 #!/bin/bash
 BASEDIR=$(dirname "$0")
-cd $BASEDIR;
+cd "$BASEDIR";
 npm install;
 npm start;
-sleep 3;
+sleep 10;
