@@ -1,12 +1,10 @@
-##!/bin/bash
-BASEDIR=$(dirname $0);
-
+#!/bin/bash
+BASEDIR=$(dirname "$0");
 
 hash npm 2>/dev/null || { 
   echo -e "\033[0;31mPlease install NodeJS to run this application: http://nodejs.org.\033[0m"; sleep 20; exit 1; 
 }
-
-cd $BASEDIR;
+cd "$BASEDIR";
 npm install;
 npm start;
-sleep 3;
+sleep 10;
