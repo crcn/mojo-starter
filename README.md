@@ -9,6 +9,24 @@ Simply double-click the `server` file to start running your  application, then o
 
 If you're comfortable with terminal, you can also run `npm install; npm start` in the application directory. 
 
+## File Structure
+
+```
+app/js - app source code
+  commands/ - global comments (mojo-mediator)
+  models/ - your app models (mojo-models)
+  routes/ - your routes (mojo-router)
+  templates/ - template stuff (modifiers, plugins - paperclip)
+  views/ - your views (mojo-views)
+  entry.js - main entry point into ypur appliation
+  index.js - your application class
+build/ - where your app is built to
+server - runs the dev server
+package.json - app description & dev commands
+```
+
+## Commands
+
 Below are a list of available commands you can run for this starter kit.
 
 #### npm install
