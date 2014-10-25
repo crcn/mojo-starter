@@ -19,6 +19,7 @@ app/js - app source code
   templates/ - template stuff (modifiers, plugins - paperclip)
   views/ - your views (mojo-views)
   entry.js - main entry point into ypur appliation
+  includes.js - browser-specific files to include (jquery, es5 shims, analytics, etc.)
   index.js - your application class
 build/ - where your app is built to
 server - runs the dev server
