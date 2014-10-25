@@ -31,9 +31,9 @@
     "mojo-models": "0.3.x"
   },
   "devDependencies": {
-    "expect.js": "0.3.1",
-    "mocha": "1.20.1",
-    "mojo-cli": "0.0.x",
-    "ditto": "0.0.x"
+    "ditto": "0.0.x",
+    "expect.js": "^0.3.1",
+    "mocha": "^2.0.1",
+    "mojo-cli": "0.0.x"
   }
 }
