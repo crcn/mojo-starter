@@ -1,3 +1,4 @@
+require("./includes");
 var Application = require("./index");
 
 var app = new Application();

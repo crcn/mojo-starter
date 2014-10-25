@@ -4,7 +4,7 @@
   "description": "mojo-starter",
   "main": "./app/js/index.js",
   "scripts": {
-    "start": "./node_modules/.bin/mojo build ./app/js/entry.js --output=build/app.min.js --serve=build --port=8085",
+    "start": "./node_modules/.bin/mojo build ./app/js/entry.js --debug --output=build/app.min.js --serve=build --port=8085",
     "build": "./node_modules/.bin/mojo build ./app/js/entry.js --output=build/app.min.js",
     "hotswap": "./node_modules/.bin/ditto-proxy http://127.0.0.1:8085 --port=8090 --verbose --watch='./build/**'"
   },
@@ -16,6 +16,11 @@
   "license": "BSD",
   "readmeFilename": "README.md",
   "gitHead": "f685d2e601df0d0e91f7a4a07f5c696e67e81bb0",
+  "browser": {
+    "zepto": "./app/vendor/zepto.js",
+    "es5-shim": "./app/vendor/es5-shim.js",
+    "es5-sham": "./app/vendor/es5-sham.js"
+  },
   "dependencies": {
     "mojo-application": "0.1.x",
     "mojo-paperclip": "0.6.x",
