@@ -22,18 +22,22 @@
     "es5-sham": "./app/vendor/es5-sham.js"
   },
   "dependencies": {
-    "mojo-application": "0.1.x",
-    "mojo-paperclip": "0.6.x",
-    "mojo-views": "0.2.x",
-    "mojo-router": "0.6.x",
-    "mojo-mediator": "0.1.x",
     "mkdirp": "^0.5.0",
-    "mojo-models": "0.3.x"
+    "mojo-application": "0.1.x",
+    "mojo-bootstrap": "^0.1.0",
+    "mojo-mediator": "0.1.x",
+    "mojo-models": "0.3.x",
+    "mojo-paperclip": "0.6.x",
+    "mojo-router": "0.6.x",
+    "mojo-views": "0.2.x"
   },
   "devDependencies": {
     "ditto": "0.0.x",
     "expect.js": "^0.3.1",
+    "jsdom": "^1.0.3",
     "mocha": "^2.0.1",
-    "mojo-cli": "0.0.x"
+    "mojo-cli": "0.0.x",
+    "nofactor": "0.0.57",
+    "sinon": "^1.10.3"
   }
 }

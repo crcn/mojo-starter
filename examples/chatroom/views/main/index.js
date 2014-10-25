@@ -1,13 +1,7 @@
-var views = require("mojo-views");
+var views = require("mojo-views"),
+MessageView = require("./message");
 
-var MessageView = views.Base.extend({
 
-  /**
-   * message template
-   */
-
-  paper: require("./message.pc")
-});
 
 module.exports = views.Base.extend({
 
@@ -32,7 +26,7 @@ module.exports = views.Base.extend({
       source: "messages",
       modelViewClass: MessageView,
       sort: function (a, b) {
-        return a.get("createdAt") > b.get("createdAt") ? 1 : -1;
+        return a.createdAt > b.createdAt ? 1 : -1;
       }
     }
   },
