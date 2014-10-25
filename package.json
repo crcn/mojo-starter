@@ -39,6 +39,7 @@
     "mocha": "^2.0.1",
     "mojo-cli": "0.0.x",
     "nofactor": "0.0.57",
+    "paperclip": "^0.5.14",
     "sinon": "^1.10.3"
   }
 }
