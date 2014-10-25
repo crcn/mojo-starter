@@ -1,8 +1,9 @@
+
 ## Starter Kit
 
 Video tutorial: http://www.youtube.com/embed/FSq_yUbHkfQ
 
-Before you begin, **make sure you have [NodeJS](http://nodejs.org/) installed**.
+Before you begin, **make sure you have [NodeJS](http://nodejs.org/) installed**. If you're looking for a pre-bundled version of mojo, you can download this file: https://raw.githubusercontent.com/mojo-js/mojo.js/master/dist/mojo.js.
 
 Simply double-click the `server` file to start running your  application, then open up `http://localhost:8085` in your browser.
 
